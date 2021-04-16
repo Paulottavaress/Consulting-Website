@@ -50,6 +50,7 @@
 
 .div-header-showcase{
   display: flex;
+  width: 100%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
@@ -80,5 +81,133 @@
   padding: 0px 5px 0px 0px;
 }
 
+#boxes-section{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+}
 
+#boxes-section i{
+  padding: 16px;
+  margin: 0px 0px 15px;
+  background: #28a745;
+  border-radius: 50px;
+}
 
+#boxes-section h3{
+  font-weight: bold;
+  margin: 0px 0px 15px;
+  color: #333;
+}
+
+#boxes-section p{
+  margin: 10px 0px;
+  color: #333;
+  text-align: center;
+}
+
+/* two boxes 1 */
+
+.full-gallery{
+  padding: 20px 20px 40px;
+}
+
+.section-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.section-header h2{
+  margin: 20px 0px;
+  font-size: 40px;
+}
+
+.section-header p{
+  margin: 10px
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.column{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  height: 50%;
+  flex-direction: column;
+  padding: 0px 4px;
+}
+
+.img1{
+  padding: 5px 0px;
+  width: 100%;
+  height: 100%;
+  Object-fit: cover
+}
+
+.img2{
+  width: 100%;
+  height: 5100%;
+  Object-fit: cover
+}
+
+.staff{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.staff div{
+  padding: 20px;
+}
+
+.staff img{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.staff p{
+  padding: 10px;
+}
+
+.insert-info{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
+}
+
+.insert-info h2{
+  font-size: 40px;
+}
+
+.insert-info form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.insert-info form input{
+  margin: 10px 0px;
+  padding: 4px;
+  border: none;
+}
+
+.insert-info form a{
+  margin: 20px 0px 0px
+}
