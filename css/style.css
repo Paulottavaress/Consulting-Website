@@ -1,0 +1,84 @@
+.header-showcase {
+  background: url('../images/home/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  }
+
+.nav{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: #333;
+  opacity: 0.8;
+  padding: 0px 30px;
+  position: fixed;
+  top: 0px;
+}
+
+.nav-h1, .nav-h1 i{
+  display: flex;
+}
+
+.nav-h1 i{
+  align-self: center;
+  padding: 0px 10px 0px 0px;
+}
+
+.nav-h1 a{
+  color: #28a745;
+  align-self: center;
+}
+
+.nav-ul{
+  display: flex;
+  size: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-ul li a{
+  color: white;
+  margin: 0px 5px;
+  padding: 10px 20px;
+}
+
+.nav-ul li a:hover{
+  border-bottom: 2px #28a745 solid;
+}
+
+.div-header-showcase{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.div-header-showcase h1{
+  text-align: center;
+  font-size: 55px;
+}
+
+.div-header-showcase p{
+  text-align: center;
+  align-self: center;
+  font-size: 23px;
+  margin: 20px 0px 30px;
+  max-width: 600px;
+}
+
+.div-header-showcase a{
+  text-align: center;
+  align-self: center;
+  margin: 20px 0px 30px;
+}
+
+.div-header-showcase i{
+  padding: 0px 5px 0px 0px;
+}
+
+
+
