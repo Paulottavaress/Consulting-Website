@@ -84,7 +84,7 @@
     color: 333;
 }
 
-.header-showcase::before{
+.header-showcase::before, .header-blog::before{
     content:'';
     position: absolute;
     top: 0;
@@ -165,3 +165,8 @@
     font-weight: bold;
 }
 
+/* blog */
+
+.content-box i, .post i{
+    margin-right: 5px;
+}
