@@ -17,6 +17,11 @@
   padding: 0px 30px;
   top: 0px;
   position: fixed;
+  transition: 0.5s;
+}
+
+.div-nav.top{
+  background: transparent;
 }
 
 .nav-h1, .nav-h1 i{

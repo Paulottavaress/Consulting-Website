@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post One</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Post One</title>
 </head>
 <body>
     <main>
         <header class="header-blog">
-            <div class="div-nav">
+            <div id="navbar" class="div-nav top">
                 <h1 class="nav-h1 logo text-primary"><i class="fas fa-book-open"></i><a href="index.html">Edge<span class="text-tertiary">Ledger</span></a></h1>
                 <nav class="nav">
                     <ul class="nav-ul">
@@ -44,5 +44,25 @@
         </div>
         <p>Copyright &copy; 2020 - EdgeLedger</p>
     </footer>
+    <script>
+        const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+                if(!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)';
+                }
+                setTimeout(function() {
+                    navbar.style.transform = 'translateY(0)';
+                    scrolled = true;
+                }, 200);
+            } else{
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        }
+    </script>
 </body>
 </html>
